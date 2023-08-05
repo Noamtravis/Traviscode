@@ -1,0 +1,38 @@
+#first{ 
+    width: 100px;
+    height:100px;
+    color: aquamarine;
+    text-align: center;
+    padding-left: 48%;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 100px;
+}
+
+#second{
+    width: 100px;
+    height:100px;
+    color: blueviolet;
+    background-color: rgb(234, 255, 0);
+}
+
+.blue-text{
+color: red;
+
+}
+
+.yellow-background{
+background-color: yellow;
+
+}
+
+
+
+
+.bee{display:none}
+
+#bee-container:hover .bee{
+    display: block; text-align: center;}
+
+
+      

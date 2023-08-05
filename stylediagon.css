@@ -1,0 +1,20 @@
+#title{
+    width: 400px;
+    height: 400px;
+    font-size: 70px;
+        font-family: cursive;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+    #one-container:hover .one{
+      opacity: 0.7;
+    }
+
+    #two-container:hover .two{
+      opacity: 0.7;
+    }
+
+    #three-container:hover .three{
+      opacity: 0.7;
+    }
