@@ -6,61 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diagon alley</title>
     <link rel="stylesheet" href="stylediagon.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 </head>
 
 <body>
 
+
+
     <div>
-        <h1 id="title">Diagon alley book store</h1>
-    
-        <div><a href="#second">Our books for sale</a></div>
+        <span id="title">Diagon alley book store</span>
 
-        <div> <a href="#third">More books of the series</a></div>
+        <ul>
+            <li><a href="#third">Our books for sale </a></li>
+            <li><a href="#third">More books of the series</a></li>
 
-    </div>
+        </ul>
 
 
-
-    <div id="one-container">
-        <h1 id="second">HARRY POTTER AND THE SORCERER'S STONE</h1>
-
-        <p><a target="_blank" class="one" href="https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X/ref=sr_1_1?crid=37GNS93J2NWVH&keywords=harry+potter+and+the+sorcerer%27s+stone&qid=1691247525&s=books&sprefix=harry+potter+sor%2Cstripbooks-intl-ship%2C216&sr=1-1"><img
-                    src="https://m.media-amazon.com/images/I/71HbYElfY0L._AC_UF1000,1000_QL80_.jpg" alt="oi lo"
-                    width="400px" height="400px" id="img1"></a></p>
-        <h2>PRICE:15$</h2>
     </div>
 
     <hr>
 
-    <div id="two-container">
-        <h1>HARRY POTTER AND THE CHAMBER OF SECRETS</h1>
+    <div id="books">
+        <div id="one-container">
+            <span id="right-aligned-text">HARRY POTTER AND THE SORCERER'S STONE</span>
 
-        <p><a target="_blank" class="two" href="https://www.amazon.com/Harry-Potter-Chamber-Secrets-Latin/dp/140886911X/ref=sr_1_10?crid=VHDXUHTUXW9U&keywords=harry+potter+and+the+chamber+of+secrets&qid=1691247558&s=books&sprefix=harry+potter+and+the+chamber%2Cstripbooks-intl-ship%2C211&sr=1-10"><img
-                    src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781408855669.jpg"
-                    alt="oi lo" width="400px" height="400px" id="img2"></a></p>
-        <h2>PRICE:15$</h2>
-    </div>
+            <p><a target="_blank" class="one"
+                    href="https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Rowling/dp/059035342X/ref=sr_1_1?crid=37GNS93J2NWVH&keywords=harry+potter+and+the+sorcerer%27s+stone&qid=1691247525&s=books&sprefix=harry+potter+sor%2Cstripbooks-intl-ship%2C216&sr=1-1"><img
+                        src="https://m.media-amazon.com/images/I/71HbYElfY0L._AC_UF1000,1000_QL80_.jpg" alt="oi lo"
+                        width="250px" height="250px" id="img1"></a></p>
+            <span>PRICE:$6.98 </span>
+        </div>
 
-    <hr>
-    <div id="three-container">
-        <h1>HARRY POTTER AND THE PRISONER OF AZKABAN</h1>
+        <div id="two-container">
+            <span id="right-aligned-text">HARRY POTTER AND THE CHAMBER OF SECRETS</span>
 
-        <a target="_blank" class="three" href="https://www.amazon.com/Prisoner-Azkaban-Rowling-published-October/dp/B018KZ8OA4/ref=sr_1_6?keywords=harry+potter+and+the+prisoner+of+azkaban&qid=1691247590&s=books&sprefix=harry+potter+and+the+pri%2Cstripbooks-intl-ship%2C238&sr=1-6"><img
-                src="https://m.media-amazon.com/images/I/51pBxR5u1HL.jpg" alt="oi lo" width="400px" height="400px"
-                id="img3"></a>
-        <h2>PRICE:15$</h2>
+            <p><a target="_blank" class="two"
+                    href="https://www.amazon.com/Harry-Potter-Chamber-Secrets-Latin/dp/140886911X/ref=sr_1_10?crid=VHDXUHTUXW9U&keywords=harry+potter+and+the+chamber+of+secrets&qid=1691247558&s=books&sprefix=harry+potter+and+the+chamber%2Cstripbooks-intl-ship%2C211&sr=1-10"><img
+                        src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781408855669.jpg"
+                        alt="oi lo" width="250px" height="250px" id="img2"></a></p>
+            <span>PRICE:$29.99</span>
+        </div>
+
+        <div id="three-container">
+            <span id="right-aligned-text">HARRY POTTER AND THE PRISONER OF AZKABAN</span>
+
+            <p><a target="_blank" class="three"
+                    href="https://www.amazon.com/Prisoner-Azkaban-Rowling-published-October/dp/B018KZ8OA4/ref=sr_1_6?keywords=harry+potter+and+the+prisoner+of+azkaban&qid=1691247590&s=books&sprefix=harry+potter+and+the+pri%2Cstripbooks-intl-ship%2C238&sr=1-6"><img
+                        src="https://m.media-amazon.com/images/I/51pBxR5u1HL.jpg" alt="oi lo" width="250px"
+                        height="250px" id="img3"></a></p>
+            <span>PRICE:$15.52 </span>
+        </div>
     </div>
 
     <hr>
 
     <h1 id="third">MORE BOOKS OF THE SERIES:</h1>
-    <ol>
+
+    <ol id="list">
         <li>HARRY POTTER AND THE GOBLET OF FIRE</li>
         <li>HARRY POTTER AND THE PHEONIX ORDER</li>
         <li>HARRY POTTER AND THE HALF BLOOD PRICE</li>
         <li>HARRY POTTER AND THE DEATHLY HALLOWS PART I</li>
         <li>HARRY POTTER AND THE DEATHLY HALLOWS PART II</li>
-
     </ol>
 
     <h1>YOU CAN FIND US ON:</h1>
@@ -76,9 +85,9 @@
             src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="oh no" width="50"
             height="50"></a>
 
-            <h6>ALL RIGHTS RESERVED - J.K. ROWLING</h6>
+    <h6>ALL RIGHTS RESERVED - J.K. ROWLING</h6>
 
-            <div> <a href="#title">To top</a></div>
+    <div> <a href="#title">To top</a></div>
 </body>
 
 </html>
